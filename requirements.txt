@@ -1,0 +1,12 @@
+# Çalışma anı bağımlılıkları. PyTorch/CUDA YOK (bkz. docs/DECISIONS.md D9).
+numpy==2.4.6          # DSP hesapları
+scipy==1.17.1         # filtreler, yeniden örnekleme, FFT
+sounddevice==0.5.6    # PortAudio (WASAPI) ile ses giriş/çıkış
+soundfile==0.14.0     # WAV okuma/yazma
+psutil==7.2.2         # CPU kullanımı göstergesi
+pynput==1.8.2         # global kısayol (oyun içindeyken de çalışır)
+pyworld==0.3.5        # yalnızca offline WORLD karşılaştırması için
+onnxruntime-directml==1.24.4  # AI çıkarımı: CPU (varsayılan) + isteğe bağlı DirectML GPU
+faiss-cpu==1.15.1     # ses modelinin index'i (model.index) üzerinde arama
+tkinterdnd2==0.6.3    # Ses Kütüphanesi'ne sürükle-bırak (yoksa sadece "İçe aktar…" çalışır)
+sv-ttk==2.6.1         # modern arayüz teması (Windows 11 görünümü, açık/koyu)

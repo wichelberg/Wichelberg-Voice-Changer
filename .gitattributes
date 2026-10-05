@@ -1,0 +1,7 @@
+# Satır sonları: git deposunda LF; .bat dosyaları her zaman CRLF (cmd, LF satır sonuyla etiket/goto karıştırır)
+* text=auto
+*.bat text eol=crlf
+*.png binary
+*.ico binary
+*.wav binary
+*.onnx binary

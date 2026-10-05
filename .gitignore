@@ -1,0 +1,16 @@
+# Repoya sadece kod girer (docs/DECISIONS.md D12)
+.venv/
+__pycache__/
+*.pyc
+
+# Kullanıcıya özel / üretilen
+config/
+data/
+models/
+
+# Geçici geliştirme ortamı (D16) ve yerel kurulum dosyaları
+.dev_export/
+.dev_quant/
+VBCABLE_Driver_Pack*/
+*.part
+*.tmp
