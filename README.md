@@ -16,6 +16,36 @@ Discord ve FiveM'e aktarır.
 
 ---
 
+## Ortak AI modelleri
+
+Wichelberg Voice Changer'ın **AI modu** için gereken genel modeller (`ortak_modeller.zip`, 261 MB).
+Bir kez kurulur; her AI sesi bunları kullanır.
+
+### Kurulum
+1. Aşağıdaki **ortak_modeller.zip**'i indir. **Zip'i açma.**
+2. Programda **Ses Kütüphanesi** → **Ortak AI modelleri** → **İçe aktar…** → indirdiğin zip'i seç.
+   (Zip'i Ses Kütüphanesi'ndeki listeye sürüklemek de olur.)
+3. İki model ✓ olur. Program dosyaları doğru yere kendisi koyar ve bozuk olup olmadığını kontrol eder.
+
+### İçindekiler
+Bunlar kimsenin sesi değildir; konuşmanın içeriğini ve perdesini çıkaran genel modellerdir. Ses modelleri
+burada paylaşılmaz.
+
+| Dosya | Ne işe yarar | Lisans | Kaynak |
+|---|---|---|---|
+| `contentvec.onnx` (360 MB) | konuşmanın içeriği (ContentVec, 768 boyut) | MIT | auspicious3000/contentvec; ağırlıklar Hugging Face `lengyue233/content-vec-best` |
+| `fcpe.onnx` (46 MB) | ses perdesi (F0) | MIT | CNChTu/FCPE (`torchfcpe` 0.0.4, `fcpe_c_v001.pt`) |
+
+Her ikisi de ONNX biçimine dönüştürülmüştür (ağırlıklar değiştirilmedi).
+
+sha256:
+- `contentvec.onnx`: `41b51e0ffbb70ff45ed313e8d751f5996ee5e34eb2e308e66c58783124e12d10`
+- `fcpe.onnx`: `d184325f15260c9321730b2e2d04101ce2b8416094e1c4625675c57335836aeb`
+
+MIT lisansı: telif hakları ilgili projelerin yazarlarına aittir; tam lisans metinleri yukarıdaki kaynak
+depolardadır. Dosyalar "olduğu gibi" sağlanır, hiçbir garanti verilmez.
+
+
 ## 1. Kurulum
 
 ### VB-Cable (bir kez)
