@@ -1,10 +1,10 @@
 # Wichelberg Voice Changer
 
-Release: [1.0.2](https://github.com/wichelberg/Wichelberg-Voice-Changer/releases/download/1.0.2/Wichelberg-1.0.2.zip)
+Release: [1.0.2 - Download](https://github.com/wichelberg/Wichelberg-Voice-Changer/releases/download/1.0.2/Wichelberg-1.0.2.zip)
 
-Shared Models: [Shared](https://github.com/wichelberg/Wichelberg-Voice-Changer/releases/download/1.0.2/ortak_modeller.zip)
+Shared Models: [Shared - Download](https://github.com/wichelberg/Wichelberg-Voice-Changer/releases/download/1.0.2/ortak_modeller.zip)
 
-Training app: [Train](https://github.com/wichelberg/Wichelberg-Voice-Changer/releases/download/1.0.2/WichelbergEgitim-1.0.0.zip)
+Training app: [Train - Download](https://github.com/wichelberg/Wichelberg-Voice-Changer/releases/download/1.0.2/WichelbergEgitim-1.0.0.zip)
 
 Windows için gerçek zamanlı ses değiştirici. Sesini seçilen hedef sese çevirir ve VB-Cable üzerinden
 Discord ve FiveM'e aktarır.
